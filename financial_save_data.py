@@ -284,7 +284,6 @@ class FinancialStatementGet(CommonFunction):
     def data_save(self, url, filename):
         #存檔
         report = self.financial_update(url)
-        print type(report)
         if (report): #檢查是否連結失敗
             savefile = self.savefiledir + '\\' + filename;
             f = open(savefile,'w')
