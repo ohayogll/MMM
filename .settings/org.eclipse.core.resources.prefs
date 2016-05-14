@@ -2,4 +2,5 @@ eclipse.preferences.version=1
 encoding/common_function.py=utf8
 encoding/financial_report_get.py=utf-8
 encoding/financial_save_data.py=utf8
+encoding/financial_score_cal.py=utf8
 encoding/test.py=utf8

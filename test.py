@@ -1,5 +1,5 @@
 # -*- coding: utf8 -*-
-from financial_save_data import FinancialStatementGet
+#from financial_save_data import FinancialStatementGet
+from financial_score_cal import FinancialScoreCal
 
-result = FinancialStatementGet(2330, 'C:\\MMM\\FinancialData\\', 1, 1)
-print result.financial_statement_get()
+result = FinancialScoreCal(2330, 0, 0)
